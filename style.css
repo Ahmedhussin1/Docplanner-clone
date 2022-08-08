@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+/* ------- */
+.logo-docplanner{
+    width: 268px;
+    height: 33px;
+}
+/* ----------- */
+nav{
+    height: 50px;
+    background-color: beige;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 100px; 
+}
+nav ul li{
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 10px;
+}
+.first{
+    color: #00b39b;
+}
+nav ul li a{
+    color: #ababab;
+    display: block;
+}
+nav ul li a:hover{
+    color: #00b39b;
+}
+.nav-listDrop{
+    position: absolute;
+    visibility: hidden;
+    top: 85px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* margin-bottom: 50px; */
+    background-color: white;
+}
+.nav-listDrop li{
+    color: #ababab;
+    width: 170px;
+    position: relative;
+    border-top: none;
+    font-size: small;
+    display: list-item;
+}
+.nav-listDrop li a{
+    line-height: 50px;
+}
+nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s linear;
+  }
+  /* --------- */
