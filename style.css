@@ -227,6 +227,7 @@ nav ul li:hover > ul{
     font-family: Work Sans,Arial,sans-serif;
     font-weight: 300;
     letter-spacing: -.3px;
+    margin-top: 50px;
 }
 .stats-header p{
     margin-top: 30px;
@@ -277,10 +278,58 @@ nav ul li:hover > ul{
 .card{
     width: fit-content;
     /* padding: 50px; */
-    background-color:;
-    padding: 50px;
+    padding: 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 10px;
     margin: 30px;
     background-color: #fff;
 }
+.card:nth-child(1){
+    width: max-content;
+}
+/* ------------ */
+.offices header h1{
+    font-size: 2.1428571429em;
+    color: #00b39b;
+    font-family: Work Sans,Arial,sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    text-align: center;
+    margin-top: 70px;
+}
+.offices header p{
+    line-height: 1.7142857143;
+    margin: 1.6em 0;
+    font-size: .875em;
+    text-align: center;
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+}
+.offices{
+    margin: 30px;
+}
+/* ------- */
+.office{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    margin: 10px;        
+}
+.offices-cards{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    margin-top: 50px;
+}   
+/* --------- */
+.office__desc{
+    color: #747474;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 1.125em;
+    font-weight: 400;
+    line-height: 1.6666666667;
+    padding: 1.1111111111em;
+}
+
