@@ -16,8 +16,11 @@ body{
 }
 /* ----------- */
 nav{
-    height: 50px;
+    height: 70px;
     width: 100%;
+    position: fixed;
+    background-color: #fff;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 nav ul{
     float: right;
@@ -307,20 +310,21 @@ nav ul li:hover > ul{
     color: #747474;
 }
 .offices{
-    margin: 30px;
+    margin: 10px;
 }
 /* ------- */
 .office{
+    float: left;    
+    margin: 10px; 
+    border-radius: 10px;
+}
+.office:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 10px;
-    margin: 10px;        
 }
 .offices-cards{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-evenly;
-    /* margin-left: 100px;
-    margin-right: 100px; */
+    justify-content: center;
+    margin-left: 210px; 
+    margin-right: 100px;
     margin-top: 50px;
 }   
 /* --------- */
@@ -331,5 +335,20 @@ nav ul li:hover > ul{
     font-weight: 400;
     line-height: 1.6666666667;
     padding: 1.1111111111em;
+}
+.office__desc span{
+    background-color: #3d83df;
+    color: #fff;
+    font-size: .650rem;
+    padding: .5em 1.5em;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: 0;
+    float: right;
+}
+.office figure img{
+    border-radius: 5px 5px 0  0;
 }
 
